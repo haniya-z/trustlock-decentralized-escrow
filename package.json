@@ -1,0 +1,28 @@
+{
+  "name": "trustlock",
+  "version": "1.0.0",
+  "description": "TrustLock — Decentralized Escrow Protocol. A trustless, on-chain escrow application built with Hardhat and Ethers.js v6.",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "clean": "hardhat clean",
+    "coverage": "hardhat coverage",
+    "lint": "eslint . --ext .js,.sol"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

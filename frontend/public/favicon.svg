@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- TrustLock shield favicon -->
+  <path d="M32 4 L56 14 L56 34 C56 48 44 58 32 62 C20 58 8 48 8 34 L8 14 Z"
+        fill="#6366f1" stroke="#4f46e5" stroke-width="2"/>
+  <!-- Lock body -->
+  <rect x="22" y="32" width="20" height="14" rx="3" fill="white"/>
+  <!-- Lock shackle -->
+  <path d="M26 32 L26 27 C26 22.6 37.4 22.6 37.4 27 L37.4 32"
+        stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Keyhole -->
+  <circle cx="32" cy="38" r="2.5" fill="#6366f1"/>
+  <rect x="31" y="39" width="2" height="4" rx="1" fill="#6366f1"/>
+</svg>
+
